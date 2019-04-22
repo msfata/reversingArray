@@ -2,8 +2,8 @@ package com.networking;
 
 import java.util.Arrays;
 
-public class UniqueValueArray {
-	static void unique_array(int[] originalArr) {
+public class Arr {
+	static void uniqueIt(int[] originalArr) {
 		/* reading original array */
 		System.out.println("Original Array : ");
 		for (int i = 0; i < originalArr.length; i++) {
@@ -51,7 +51,7 @@ public class UniqueValueArray {
 	}
 
 	public static void main(String[] args) {
-		unique_array(new int[] { 0, 1, 2, 3, 4, 5, 0, 5, 5, 4, 2, 3, 1, 0 });
+		uniqueIt(new int[] { 0, 1, 2, 3, 4, 5, 0, 5, 5, 4, 2, 3, 1, 0 });
 
 	}
 }

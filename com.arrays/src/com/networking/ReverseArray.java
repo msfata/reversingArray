@@ -16,7 +16,7 @@ public class ReverseArray {
 		/* printing the reversed array */
 		System.out.println("Reversed array is: \n");
 		for (int k = 0; k < n; k++) {
-			System.out.print(b[k]+" , ");
+			System.out.print(b[k] + " , ");
 		}
 	}
 
