@@ -2,7 +2,7 @@ package com.networking;
 
 import java.util.Arrays;
 
-public class Arr {
+public class ArrayUnigue {
 	static void uniqueIt(int[] originalArr) {
 		/* reading original array */
 		System.out.println("Original Array : ");
